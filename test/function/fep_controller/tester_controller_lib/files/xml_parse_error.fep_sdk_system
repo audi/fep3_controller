@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<system xmlns="http://fep.vwgroup.com/system/2.0/sdk">
+    <schema_version>2.0.0</schema_version>
+    <name>FEP_SYSTEM</name>
+    <id>FEP_SYSTEM_CONTROLLER_LIB_TEST</id>
+    <description>This is an incorrect description of a FEP system that will cause a xml parse error.</description>
+    <version>1.0.0</version>
+    <author>Tobias</author>
+    <participants>
+        <participant>
+            <address>test_part</address>
+            <init_priority>0</init_priority>
+            <start_priority>0</start_priority>
+            <element_instance>
+                <id>test_part</id>
+                <type>type_id</type>
+            </element_instance>
+        </participant>
+    </patricipants> <!-- Participants is spelled wrong and does therefor not close the xml element correctly -->
+</system>

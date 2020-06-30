@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<property_file xmlns="http://fep.vwgroup.com/system/2.0/properties">
+    <schema_version>2.0.0</schema_version>
+    
+    <system_timing_properties>
+    </system_timing_properties>
+    
+    <!-- Defines the properties of the entire system -->
+    <system_properties>
+    </system_properties>
+    
+    <!-- Defines the properties of one particualar participant -->
+    <element_instances_properties>
+        <element_instance>
+            <!-- Unique name in the system -->
+            <id>participant1</id>
+            <properties>
+                <property>
+                    <name>test_config/pos1</name>
+                    <type>double</type>
+                    <value>1.234</value>
+                </property>
+                <property>
+                    <name>test_config/bool_value</name>
+                    <type>bool</type>
+                    <value>true</value>
+                </property>
+                <property>
+                    <name>test_config/double_pos2</name>
+                    <type>double</type>
+                    <value>0.00</value>
+                </property>
+                <property>
+                    <name>test_config/string_test</name>
+                    <type>string</type>
+                    <value>this is a string</value>
+                </property>
+                <property>
+                    <name>test_config/parameter1</name>
+                    <type>int</type>
+                    <value>3</value>
+                </property>
+            </porperties> <!-- Properties is spelled wrong and does therefor not close the xml element correctly -->
+        </element_instance>
+    
+        <element_instance>
+            <id>participant2</id>
+            <properties>
+                <property>
+                    <name>test_config/pos_X</name>
+                    <type>int</type>
+                    <value>100</value>
+                </property>
+            </properties>
+        </element_instance>
+    </element_instances_properties>
+</property_file>

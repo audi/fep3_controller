@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<property_file xmlns="http://fep.vwgroup.com/system/2.0/properties">
+    <schema_version>2.0.0</schema_version>
+    
+    <system_timing_properties>
+    </system_timing_properties>
+    
+    <system_properties>
+    </system_properties>
+    
+    <element_instances_properties>
+        <element_instance>
+            <id>participant1</id>
+            <properties>
+                <property>
+                    <name>test_config.parameter1</name>
+                    <type>int</type>
+                    <value>3</value>
+                </property>
+            </properties>
+        </element_instance>
+    </element_instances_properties>
+</property_file>

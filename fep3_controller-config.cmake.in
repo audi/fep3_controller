@@ -1,0 +1,25 @@
+##################################################################
+# @file 
+# @copyright AUDI AG
+#            All right reserved.
+# 
+# This Source Code Form is subject to the terms of the 
+# Mozilla Public License, v. 2.0. 
+# If a copy of the MPL was not distributed with this
+# file, You can obtain one at https://mozilla.org/MPL/2.0/.
+# 
+##################################################################
+if(fep_controller_lib_FOUND)
+    return()
+endif()
+
+#we only compile and link if we resolve dependencies to the fep_system library
+find_package(fep3_system REQUIRED)
+
+#includes and provides some helper macros like fep3_deploy
+include(${CMAKE_CURRENT_LIST_DIR}/fep3_controller-macros.cmake)
+
+# Add imported library target
+include(${CMAKE_CURRENT_LIST_DIR}/lib/cmake/fep3_controller_targets.cmake)
+
+set(fep_controller_lib_FOUND true)

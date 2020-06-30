@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<property_file xmlns="http://fep.vwgroup.com/system/2.0/properties">
+    <schema_version>2.0.0</schema_version>
+    
+    <system_timing_properties>
+        <property>
+            <name>timing_configuration_type</name>
+            <type>string</type>
+            <value>Timing3DiscreteSteps</value>
+        </property>
+        <property>
+            <name>master_element_id</name>
+            <type>string</type>
+            <value>participant2</value>
+        </property>
+        <property>
+            <name>master_time_factor</name>
+            <type>double</type>
+            <value>0.5</value>
+        </property>
+        <property>
+            <name>master_time_stepsize</name>
+            <type>uint</type>
+            <value>50</value>
+        </property>
+    </system_timing_properties>
+    
+    <!-- Defines the properties of the entire system -->
+    <system_properties>
+    </system_properties>
+    
+    <!-- Defines the properties of one particualar participant -->
+    <element_instances_properties>
+    </element_instances_properties>
+</property_file>
