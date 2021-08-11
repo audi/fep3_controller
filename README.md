@@ -1,3 +1,9 @@
+## ℹ️ This repository is archived 
+
+It is now maintained at https://github.com/cariad-tech
+
+
+---
 <!---
   Copyright @ 2019 Audi AG. All rights reserved.
   
